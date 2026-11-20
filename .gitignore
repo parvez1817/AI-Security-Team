@@ -1,0 +1,24 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+dist/
+
+# Project-specific generated files
+sandbox/
+workspace/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
